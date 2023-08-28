@@ -1,0 +1,36 @@
+:root{
+    --negro: #191919;
+    --blanco: #ebebeb;
+    --naranja: #e97958;
+}
+
+nav{
+    background-color: var(--negro) ;
+}
+nav ul{
+    list-style: none;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 700;
+    color: var(--blanco);
+
+    transition-property: all;
+    transition-duration: .2s;
+    transition-timing-function: ease;
+}
+
+nav ul li a:hover{
+    color:var(--naranja)
+}
+
+#logo img{
+    padding: .6rem 0;
+    height: 3rem;
+}
