@@ -1,5 +1,140 @@
+:root{
+    --negro: #151515;
+    --blanco: #ebebeb;
+    --naranja: #e97958;
+    --negro-transparente: #15151534;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+h1{
+    margin: 2rem;
+
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 900;
+    font-size: 64px;
+}
+
+.tags{
+    width: 100%;
+    
+    display:flex;
+    align-items: center;
+
+    box-shadow: 0 0 10px var(--negro-transparente);
+}
+
+.tags h3{
+    flex-grow: .2;
+    padding: .5rem .2rem;
+
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+
+    border-right: solid 1px #eee;
+}
+
+.tags ul{
+    flex-grow: .8;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.tags ul li{
+    list-style: none;
+}
+
+.titulo-tags{    
+    padding: 3px 2rem;
+}
+
+.tag{
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 600;
+    padding: 3px 2rem;
+    border: solid 1px var(--negro);
+    border-radius: 50px;
+
+    transition-property: all;
+    transition-duration: .2s;
+    transition-timing-function: ease;
+
+}
+
+.tag:hover{
+    background-color: var(--negro);
+    color: var(--blanco);
+
+    cursor: pointer;
+}
+
+.tag:active{
+    outline: solid 5px #fff;
+    outline-offset: -5px;
+}
+
+.sitios{
+    padding: 0 3rem 3rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.sitio{
+    width: 20vw;
+    padding: 1rem;
+
+    box-shadow: 0 0 5px #ccc;
+    border-radius: 10px;
+
+    transition-property: all;
+    transition-duration: .2s;
+    transition-timing-function: ease;
+}
+
+.sitio:hover{
+    outline: solid 1px var(--negro-transparente);
+    outline-offset: -1px;
+    box-shadow: 0 0 20px #bbb;
+
+    cursor: pointer;
+}
+
+.sitio img{
+    width: 100%;
+}
+
+.sitio .desc h2{
+    font-family: 'Inter-Tight', sans-serif;
+    font-weight: 800;
+    padding: .5rem 0;
+}
+
+.sitio .desc p{    
+    padding: 0 0 1rem;
+}
+
+.puntuacion{
+    padding: 0 0 .5rem;
+
+    display:flex;
+    justify-content: center;
+    gap: 2px;
+}
+
+.texto-chico{
+    display:block;
+    font-size: 10px;
+    text-align: center;
+
+    color: #777;
 }

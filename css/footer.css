@@ -44,15 +44,3 @@ footer section ul li{
     margin: auto;
     width: 20%;
 }
-
-.container-sociales{
-    display: block;
-    width: auto;
-    text-align: center;
-    margin: auto;
-}
-
-.redes-sociales{
-    display:flex;
-    justify-content: space-around;
-}
