@@ -4,6 +4,44 @@
     --naranja: #e97958;
 }
 
+/* *{
+    * {
+        scrollbar-width: thin;
+        scrollbar-color: #D4D4D4 #EEEEEE;
+      }
+       */
+      /* Chrome, Edge and Safari *//* 
+      *::-webkit-scrollbar {
+        height: 7px;
+        width: 7px;
+      }
+      *::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: #EEEEEE;
+      }
+      
+      *::-webkit-scrollbar-track:hover {
+        background-color: #E9E9E9;
+      }
+      
+      *::-webkit-scrollbar-track:active {
+        background-color: #DDDDDD;
+      }
+      
+      *::-webkit-scrollbar-thumb {
+        border-radius: 12px;
+        background-color: #D4D4D4;
+      }
+      
+      *::-webkit-scrollbar-thumb:hover {
+        background-color: #BBBBBB;
+      }
+      
+      *::-webkit-scrollbar-thumb:active {
+        background-color: #aaa;
+      }
+} */
+
 nav{
     background-color: var(--negro) ;
 }

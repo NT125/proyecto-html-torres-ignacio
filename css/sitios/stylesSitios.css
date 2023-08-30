@@ -114,17 +114,28 @@ h1{
 }
 
 .sitio .desc h2{
-    font-family: 'Inter-Tight', sans-serif;
-    font-weight: 800;
     padding: .5rem 0;
+
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .sitio .desc p{    
     padding: 0 0 1rem;
 }
 
+.scrolleable{
+    height: 100px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.scrolleable::-webkit-scrollbar{
+    display:none;
+}
+
 .puntuacion{
-    padding: 0 0 .5rem;
+    padding: .5rem 0 .5rem;
 
     display:flex;
     justify-content: center;
